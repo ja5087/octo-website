@@ -602,6 +602,9 @@ section {
   margin: 10px 0px;
 }
 
+iframe {
+  border: none;
+}
 
 #footer {
   padding: 0 0 30px 0;
