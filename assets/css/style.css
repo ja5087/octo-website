@@ -44,8 +44,6 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
-  top: 40px;
 }
 
 #header.header-transparent {
@@ -84,6 +82,11 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
+}
+
+#nav {
+  margin-top: 20px;
+  height: 80px
 }
 
 .main-nav {}
@@ -370,15 +373,12 @@ section {
 .section-header h3 {
   font-size: 36px;
   color: #1E2340;
-  text-align: center;
   font-weight: 700;
   position: relative;
   font-family: "Dm Sans", sans-serif;
 }
 
 .section-header p {
-  text-align: center;
-  margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
   color: #1E2340;
@@ -576,8 +576,7 @@ section {
 }
 
 #team .member img {
-  border-radius: 50%;
-  height: 8em;
+  height: 12em;
   width: auto;
 }
 
@@ -646,4 +645,27 @@ section {
 
 #footer .credits a:hover {
   color: #0a98c0;
+}
+
+#banner {
+  font-family: "Dm Sans", sans-serif;
+  background: #1E2340;
+  color: #fff;
+  margin-bottom: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+#banner .apply-btn {
+  font-family: "Dm Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14spx;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 20px;
+  border-radius: 3px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
 }
